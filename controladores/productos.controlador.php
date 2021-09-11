@@ -141,7 +141,7 @@ class ControladorProductos{
 		if(isset($_POST["nuevaImportacion"])){			
 			if(isset($_FILES["nuevoExcel"]["tmp_name"])){
 				$id_obra = $_POST["importarObra"];
-				$id_status = 1;
+				$id_status = 6;
 				$tabla = "productos";
 				   $error = 0;
 				   $ins = 0;
